@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -24,13 +25,21 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.velocity = new Vector2(inputX * movementSpeed, 0);
             imMoving = true;
-            //animator.SetBool("Move",true);
+            animator.SetBool("Walk",true);
+            if(inputX > 0)
+            {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
+            }
+            else
+            {
+                transform.rotation = Quaternion.Euler(0, 180, 0);
+            }
         }
         else
         {
             rb.velocity = Vector2.zero;
             imMoving = false;
-            //animator.SetBool("Move", false);
+            animator.SetBool("Walk", false);
         }
     }
 }
