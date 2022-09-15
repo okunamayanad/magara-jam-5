@@ -1,0 +1,2653 @@
+fileFormatVersion: 2
+guid: a563525e7c0c5e1459c9d31e84a17375
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 10
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 256
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: simscilik_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 944
+        width: 122
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d263b606a5a0d41a4b234ed118501e
+      internalID: -728824091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 944
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8081e5912ddf564ea1a41f65446cb33
+      internalID: -1164214140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_2
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 944
+        width: 66
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101099e1dc584cf4aa36999555ae8952
+      internalID: 1279077815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_3
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 944
+        width: 78
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a58ca64657d8df04a802ee3a138f111f
+      internalID: 756430412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_4
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 944
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4f53052e2bfa842b002897ad2886ba
+      internalID: 605126547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_5
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 944
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93db3774e4d7c4c4ab7aff8c8d696667
+      internalID: -1997384887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_6
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 944
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 806e52454087b5b4bb46300f9267fbe9
+      internalID: 678110130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_7
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 944
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb7048cddf42a75478d39b8be80ebf31
+      internalID: 969523766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_8
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 944
+        width: 36
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b2186095c59084497d3b1669904082
+      internalID: -1195596000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_9
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 944
+        width: 74
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bd0059a6f1c344e9ed4c6c4ee5dfa7
+      internalID: 67643531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_10
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 958
+        width: 120
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 077f2716580d9b242b5ebb2ad6579333
+      internalID: -618738870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_11
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 944
+        width: 62
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0066674812fb39545aed06223431e94a
+      internalID: -500540501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_12
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 942
+        width: 124
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092a74ab2ff315944a79d8463c0f8101
+      internalID: -1440699451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 840
+        width: 74
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1752c48c2687694a91b29745a38732c
+      internalID: -1937789492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 840
+        width: 74
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd3e5d0bd435650438800372a6171294
+      internalID: -2104078511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_15
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 838
+        width: 122
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06815d0331410954098055ae90f00c74
+      internalID: -735475438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 840
+        width: 74
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a92a103b4afca34dbd872cc74f09b59
+      internalID: 19795796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 840
+        width: 74
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99493beab594a4b4da6962806e276e3e
+      internalID: -1502224311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_18
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 840
+        width: 82
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b64bf17dc86f942a8d89b878e6b249
+      internalID: 432394744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_19
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 840
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bf1f1eeef5320144ace485382fda6cb
+      internalID: -1615206573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_20
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 838
+        width: 86
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c7eeae7f07657740930fc6fddfe8439
+      internalID: 1911260831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_21
+      rect:
+        serializedVersion: 2
+        x: 1016
+        y: 840
+        width: 78
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d779742ba8c2f9a48b13203c65d5d982
+      internalID: 587729173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_22
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 838
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5790b912e5158194aa766870dc91afe3
+      internalID: 921815288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_23
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 736
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91d0cd8747fbcc4089bae8289ac65f8
+      internalID: 1822781942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 736
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb649a7fc2432847bc0309588784c4e
+      internalID: -158612450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_25
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 736
+        width: 38
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73259f91e94bfd043b8d6763ceec9ea9
+      internalID: 222061974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_26
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 736
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c17b9cc3f65439a45aacb445b6a66bd9
+      internalID: 1140771441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_27
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 736
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9dbd8c13307ee42afdc2ec2da0c231
+      internalID: 2112706932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_28
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 736
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9895d7e240910f41bbe8e82b29dd4a8
+      internalID: 886857642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_29
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 736
+        width: 74
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f548abc6453eb284696fd797a888c5ff
+      internalID: -760514589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_30
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 736
+        width: 90
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fad00c7cfd672ef4d91a86916a6a6762
+      internalID: 1074844923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_31
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 736
+        width: 46
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec46a53be978474f8a63189e1f48972
+      internalID: 296943912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_32
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 736
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0e992a91c018a44b03a77e27c0490a
+      internalID: 199945173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_33
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 736
+        width: 116
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb1ece25aa87cd48975af131a73c3ca
+      internalID: -346862352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_34
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 736
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f400d5a28e99ea448678dc393b0f4d1
+      internalID: -399013487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_35
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 736
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e5711791f33a445986d802b959dfbe
+      internalID: -29556183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_36
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 736
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e73ead8aa33e124abd53b7eda8a9c23
+      internalID: 2062315329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_37
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 670
+        width: 78
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 036e54731bcd0ad419ab2a8cae8b7248
+      internalID: 1567420102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_38
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 632
+        width: 116
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9065c399ad9be7458a3b847f6780c35
+      internalID: -1277731939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_39
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 682
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335d93af631ba484a8cb94f0f2f11394
+      internalID: -79814188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_40
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 642
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1adbbace23c8e488f33fd2b26d100a
+      internalID: -1241853936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_41
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 630
+        width: 80
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cef1f9641955d74980e13ab3ef486d5
+      internalID: -283677040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_42
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 630
+        width: 92
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566e01bba090e234db8c4f88d0159174
+      internalID: -17306777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_43
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 632
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210d3fe833c41ac4ebd85d6b558c9c3c
+      internalID: -1818074838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_44
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 632
+        width: 28
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ae2132719a3e34f805eacd1950bd1f
+      internalID: 1598495637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_45
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 632
+        width: 28
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a34cec6b51d82846aed2994aec370d6
+      internalID: 698330405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_46
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 644
+        width: 64
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b2e3becb8d3c040b476f9a7e382c59
+      internalID: -294333131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_47
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 632
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2415cca5db8d69b4aa82432555782815
+      internalID: -1148899704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_48
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 632
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d6eee4f29df5e4b9c76f2019d98825
+      internalID: -964583139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 632
+        width: 98
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6f47900c90a9d4e90f7aa53a5f7761
+      internalID: 535067385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_50
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 630
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58320c098c37dda49bfb3806a47762bc
+      internalID: -190438890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_51
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 556
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae3648a187259c4385f9c32dd365cd2
+      internalID: 258940654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_52
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 556
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fdd386a15d34848a1d66daf488a44b
+      internalID: -1899028207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_53
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 528
+        width: 84
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e3426a7ef472b45a8cee7ae2ea3def
+      internalID: -772673255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_54
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 528
+        width: 104
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a61dd9dc0bf724f9baa461660e9e3c
+      internalID: 927310792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_55
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 528
+        width: 50
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea4602ade5edec347bdf470ce9236e3b
+      internalID: 1085397453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_56
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 526
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af332350d701f44cbb7988c821c3f84
+      internalID: -1820916498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_57
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 526
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 335f1ca7ba85cab4384bee8eac573fcd
+      internalID: 519360393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_58
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 526
+        width: 50
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce7e1effdf388045b801aeaa9bc885b
+      internalID: 1974642747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_59
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 546
+        width: 24
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfae6f2fad7b244ab82d9652715c865
+      internalID: -1715720463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_60
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 546
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f59c62db2b5f4741bd1ae49a2f07f44
+      internalID: 542315501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_61
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 548
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a881efbc2c9c1d4fb403747ea37d1e0
+      internalID: 374780222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_62
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 528
+        width: 78
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3daf97c8c06582b4a9311c26e558674e
+      internalID: -1557124737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_63
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 528
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11e09f4b0f3b53746ba2d7b6351bf470
+      internalID: 454017312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_64
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 422
+        width: 48
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9a348b165ed3c43a2d47382e7c6e26
+      internalID: -666662826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_65
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 424
+        width: 110
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12d7410f4c3690409a142a9545b55ce
+      internalID: 1835918116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_66
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 424
+        width: 42
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b72c60f6d619447b479ebf3d875f20
+      internalID: 500993572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_67
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 424
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f4c03f3f3ebb184ebaa3fe93bb19fe6
+      internalID: -617478943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_68
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 424
+        width: 114
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e01d2e0be46e7240b5afcdaa6820591
+      internalID: -1107121053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_69
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 426
+        width: 100
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f400d637765bb2b45880a109821fab4e
+      internalID: -1913690251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_70
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 424
+        width: 22
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ad04cbd959eb64dbee5de38f8294a6
+      internalID: 373047749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_71
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 424
+        width: 46
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e769a6047f02484db0cbc572a39d409
+      internalID: 812845810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_72
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 432
+        width: 62
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4873a743d225eae44b5c65aa5185e23b
+      internalID: -2002158424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_73
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 424
+        width: 114
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdd6c0a29a333345ac7c6c6935ec222
+      internalID: -1178270943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_74
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 424
+        width: 88
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98132752e338f1f439e2b0e33503750a
+      internalID: -883788417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_75
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 332
+        width: 46
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20939465f3925614898d76dfbd2d47aa
+      internalID: 1366235902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_76
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 336
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a08388ac841068468e27b27c484a8df
+      internalID: -2033687451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_77
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 320
+        width: 98
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7d47fe48c918943ab5eaa21d7c03ae
+      internalID: 2017506335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_78
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 320
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5140a27d51cbb34fab84fa9ae3d1304
+      internalID: -1841402347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_79
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 318
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39067fe3ac17d9c49858e79f45d08684
+      internalID: -103895932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_80
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 320
+        width: 74
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93a7e5449bd88a409634ba0d0a0da00
+      internalID: -1385015323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_81
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 318
+        width: 64
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d392be9cdfc46f140a3530794c10e176
+      internalID: -2069524000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_82
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 320
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280ae8d5191b565408be50c26f6b72ec
+      internalID: -278568651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_83
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 320
+        width: 44
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6372fe75a74a3eb448472778fbb0737b
+      internalID: 1291699471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_84
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 320
+        width: 118
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c647551dbc9249f48b40e896dd54a7f5
+      internalID: -1701639542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_85
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 214
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 837fbaea36e6c574491f3adb46ce5013
+      internalID: 506550923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_86
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 214
+        width: 54
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a807a38e7241540af1141d939dabc7
+      internalID: -1748354034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_87
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 214
+        width: 98
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac487a6eec349a4190c7509e82cacef
+      internalID: -807887385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_88
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 216
+        width: 108
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e136c91f946e804a9d4fc878c4de93b
+      internalID: 1658033207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_89
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 216
+        width: 56
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 447aaad3a0a8fbd41976beeb51ed2250
+      internalID: -1693254882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_90
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 216
+        width: 96
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e52ffcf875a9c514b8ca164c71e04198
+      internalID: -1248322487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_91
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 216
+        width: 106
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90258c4b722bd424c9dc9f99d6e1a1c0
+      internalID: 1845935315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_92
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 218
+        width: 74
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae1657271db359a458eaa2303bf339d3
+      internalID: 1306410201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_93
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 214
+        width: 68
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 800303054c89f1046bc6df85f44a2660
+      internalID: 830471629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_94
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 238
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e266779c834e32f4995ae526f23e60b1
+      internalID: -1429523860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_95
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 110
+        width: 52
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e14abacbcbc714d90ffc690de715ed
+      internalID: -336653590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_96
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 110
+        width: 36
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b30d23167bb5904aaefe85d97e45df6
+      internalID: 1290347257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_97
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 112
+        width: 58
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 458a89993c7b43f4a8527c25e1a8a2a4
+      internalID: 743558403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_98
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 112
+        width: 114
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e979773cac38644a95bb15628cf74d
+      internalID: 1965072819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_99
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 112
+        width: 70
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9499b788b0278d24dbfdf41290f7aad4
+      internalID: -715325354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_100
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 112
+        width: 56
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad7deaec27c0584d982d19cf747b0f6
+      internalID: 146450741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_101
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 114
+        width: 92
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce47eaaadddf52a469220a54038c2b34
+      internalID: -422722865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_102
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 116
+        width: 72
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cca774f52de7a446baf6e6bc7286428
+      internalID: -133514324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_103
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 112
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ffaec947f19fc4290e502fe0966e1c
+      internalID: -1472465578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_104
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 112
+        width: 56
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c012f473fbeb04fa3aaf386d83b1a5
+      internalID: 357411297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_105
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 8
+        width: 84
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69ac8e052a238e48b91e77d4d50748d
+      internalID: 2096158310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_106
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 6
+        width: 80
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7309653e8e9a134f8fe6fca4dd2aa7a
+      internalID: -657859725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_107
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 12
+        width: 90
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb008a6943485194da4eb804fa55bc0d
+      internalID: 1032589918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_108
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 8
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e121d50590a8845a50e55224177df6
+      internalID: -1963736864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_109
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 8
+        width: 106
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9a33f54ca1cb994294e7cb234df1981
+      internalID: 1436255015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_110
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 26
+        width: 46
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826b648d10272524d9099059c75f97e4
+      internalID: 1619963188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_111
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 8
+        width: 102
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c1629cb219a634682151700c97ee29
+      internalID: -946955183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_112
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 6
+        width: 102
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9193af649dde23e46a6c88d53d6f1d66
+      internalID: 906771089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_113
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 8
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe11eed37fe43fb46ab88da1ee659e87
+      internalID: 1708180628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: simscilik_114
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 22
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4c42937216ab24a8a2d061230106ea
+      internalID: -1941171647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      simscilik_59: -1715720463
+      simscilik_6: 678110130
+      simscilik_11: -500540501
+      simscilik_105: 2096158310
+      simscilik_47: -1148899704
+      simscilik_112: 906771089
+      simscilik_79: -103895932
+      simscilik_12: -1440699451
+      simscilik_78: -1841402347
+      simscilik_14: -2104078511
+      simscilik_95: -336653590
+      simscilik_75: 1366235902
+      simscilik_7: 969523766
+      simscilik_36: 2062315329
+      simscilik_5: -1997384887
+      simscilik_29: -760514589
+      simscilik_13: -1937789492
+      simscilik_110: 1619963188
+      simscilik_55: 1085397453
+      simscilik_18: 432394744
+      simscilik_40: -1241853936
+      simscilik_77: 2017506335
+      simscilik_15: -735475438
+      simscilik_32: 199945173
+      simscilik_66: 500993572
+      simscilik_38: -1277731939
+      simscilik_42: -17306777
+      simscilik_72: -2002158424
+      simscilik_86: -1748354034
+      simscilik_70: 373047749
+      simscilik_22: 921815288
+      simscilik_65: 1835918116
+      simscilik_99: -715325354
+      simscilik_0: -728824091
+      simscilik_102: -133514324
+      simscilik_113: 1708180628
+      simscilik_104: 357411297
+      simscilik_109: 1436255015
+      simscilik_28: 886857642
+      simscilik_94: -1429523860
+      simscilik_10: -618738870
+      simscilik_17: -1502224311
+      simscilik_90: -1248322487
+      simscilik_108: -1963736864
+      simscilik_85: 506550923
+      simscilik_58: 1974642747
+      simscilik_61: 374780222
+      simscilik_74: -883788417
+      simscilik_92: 1306410201
+      simscilik_37: 1567420102
+      simscilik_97: 743558403
+      simscilik_25: 222061974
+      simscilik_80: -1385015323
+      simscilik_20: 1911260831
+      simscilik_31: 296943912
+      simscilik_57: 519360393
+      simscilik_45: 698330405
+      simscilik_19: -1615206573
+      simscilik_24: -158612450
+      simscilik_44: 1598495637
+      simscilik_63: 454017312
+      simscilik_103: -1472465578
+      simscilik_87: -807887385
+      simscilik_50: -190438890
+      simscilik_67: -617478943
+      simscilik_64: -666662826
+      simscilik_100: 146450741
+      simscilik_83: 1291699471
+      simscilik_33: -346862352
+      simscilik_96: 1290347257
+      simscilik_39: -79814188
+      simscilik_26: 1140771441
+      simscilik_30: 1074844923
+      simscilik_54: 927310792
+      simscilik_53: -772673255
+      simscilik_68: -1107121053
+      simscilik_69: -1913690251
+      simscilik_91: 1845935315
+      simscilik_84: -1701639542
+      simscilik_34: -399013487
+      simscilik_27: 2112706932
+      simscilik_88: 1658033207
+      simscilik_111: -946955183
+      simscilik_21: 587729173
+      simscilik_41: -283677040
+      simscilik_56: -1820916498
+      simscilik_107: 1032589918
+      simscilik_62: -1557124737
+      simscilik_46: -294333131
+      simscilik_43: -1818074838
+      simscilik_2: 1279077815
+      simscilik_106: -657859725
+      simscilik_49: 535067385
+      simscilik_4: 605126547
+      simscilik_76: -2033687451
+      simscilik_1: -1164214140
+      simscilik_82: -278568651
+      simscilik_8: -1195596000
+      simscilik_9: 67643531
+      simscilik_89: -1693254882
+      simscilik_48: -964583139
+      simscilik_51: 258940654
+      simscilik_73: -1178270943
+      simscilik_71: 812845810
+      simscilik_101: -422722865
+      simscilik_81: -2069524000
+      simscilik_52: -1899028207
+      simscilik_93: 830471629
+      simscilik_98: 1965072819
+      simscilik_3: 756430412
+      simscilik_35: -29556183
+      simscilik_114: -1941171647
+      simscilik_16: 19795796
+      simscilik_23: 1822781942
+      simscilik_60: 542315501
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 93bd21d3bf0f10240872bc0533411390
+guid: deb0dae0393ca9e428e0c8c7cf094f92
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,117 +105,33 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Isik_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 36
-        width: 11
-        height: 5
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e52fa88372594fb4a84de8b445231daa
-      internalID: 1271422959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Isik_1
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 35
-        width: 19
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49dbd520e45d28a44a258b54e86a2412
-      internalID: 147746848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Isik_2
+      name: Gramophone_0
       rect:
         serializedVersion: 2
         x: 2
-        y: 26
-        width: 7
-        height: 4
+        y: 41
+        width: 6
+        height: 5
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12b75693f5553a849acd478c679f7192
-      internalID: 112188913
+      spriteID: 357b4c6baff568548b75c170bacc1c75
+      internalID: 1966296246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Isik_3
+      name: Gramophone_1
       rect:
         serializedVersion: 2
-        x: 22
-        y: 22
-        width: 10
-        height: 8
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a9ca2c43d8af7fe44be9af17806d6b9b
-      internalID: -2114115277
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Isik_4
-      rect:
-        serializedVersion: 2
-        x: 3
-        y: 8
-        width: 15
-        height: 7
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ceb1d9414c412b40a4d85eb4342bb57
-      internalID: 1573941952
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Isik_5
-      rect:
-        serializedVersion: 2
-        x: 5
-        y: 42
-        width: 1
+        x: 12
+        y: 41
+        width: 5
         height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -224,8 +140,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 688ba0aecf8da5544804e46079ea5483
-      internalID: 693648161
+      spriteID: 918cdd1410290a545a73a14770764147
+      internalID: 1864015514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramophone_2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 40
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642d658c0f3f1ee40950e8df15155f33
+      internalID: 1521826607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramophone_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 39
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5feb02dd3c41c9f4aa1db3753ed20867
+      internalID: 1826142531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramophone_4
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 20
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650ca9fd65b33344fac6b0faacd90b82
+      internalID: 1990731601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramophone_5
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 26
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605a078467422e0498428f0fe4cf1fb1
+      internalID: -1333151277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gramophone_6
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 32
+        width: 2
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57e0b6e488aa2004e906fc89d19d3453
+      internalID: 1652252130
       vertices: []
       indices: 
       edges: []
@@ -241,12 +262,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Isik_4: 1573941952
-      Isik_5: -1278306037
-      Isik_2: 112188913
-      Isik_3: -2114115277
-      Isik_0: 1271422959
-      Isik_1: 147746848
+      Gramophone_4: 1990731601
+      Gramophone_5: -1333151277
+      Gramophone_1: 1864015514
+      Gramophone_0: 1966296246
+      Gramophone_2: 1521826607
+      Gramophone_3: 1826142531
+      Gramophone_6: 1652252130
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
