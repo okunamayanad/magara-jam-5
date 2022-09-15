@@ -12,16 +12,17 @@ public class PlayerMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb= GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        float input = Input.GetAxis("Horizontal");
-        if(input != 0)
+        float inputX = Input.GetAxis("Horizontal");
+        float inputY = Input.GetAxis("Vertical");
+        if(inputX != 0)
         {
-            rb.velocity = new Vector2(input * movementSpeed, 0);
+            rb.velocity = new Vector2(inputX * movementSpeed, 0);
             imMoving = true;
             //animator.SetBool("Move",true);
         }
