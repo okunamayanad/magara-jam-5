@@ -8,8 +8,10 @@ public class InteractiveObject : MonoBehaviour
     {
         Weapon,
         Victim,
+        Door
     }
 
     public ObjectType m_type;
     public PlayerWeapon.WeaponType m_weaponType;
+    public int m_targetScene;
 }

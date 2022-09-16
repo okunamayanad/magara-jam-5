@@ -39,6 +39,7 @@ public class PlayerWeapon : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        //Outline Object
         RaycastHit2D outlineHit = Physics2D.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition).origin, Camera.main.ScreenPointToRay(Input.mousePosition).direction, Mathf.Infinity);
         if (outlineHit)
         {
@@ -57,6 +58,8 @@ public class PlayerWeapon : MonoBehaviour
                 lastOutlined = null;
             }
         }
+        //End Outline Object
+
         if (Input.GetKeyDown(KeyCode.Q))
         {
             if(weapons.Count > 0)
@@ -72,14 +75,18 @@ public class PlayerWeapon : MonoBehaviour
                 InteractiveObject hitObject = hit.collider.gameObject.GetComponent<InteractiveObject>();
                 if (hitObject)
                 {
-                    if (hitObject.m_type == InteractiveObject.ObjectType.Victim)
+                    switch (hitObject.m_type)
                     {
-                        Shoot(hitObject);
-                    }
-                    else if (hitObject.m_type == InteractiveObject.ObjectType.Weapon)
-                    {
-                        AddWeapon(hitObject.m_weaponType);
-                        Destroy(hitObject.gameObject);
+                        case InteractiveObject.ObjectType.Weapon:
+                            AddWeapon(hitObject.m_weaponType);
+                            Destroy(hitObject.gameObject);
+                            break;
+                        case InteractiveObject.ObjectType.Victim:
+                            Shoot(hitObject);
+                            break;
+                        case InteractiveObject.ObjectType.Door:
+                            SceneTransition.instance.LoadScene(hitObject.m_targetScene);
+                            break;
                     }
                 }
             }
