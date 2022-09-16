@@ -16,6 +16,10 @@ public class PlayerWeapon : MonoBehaviour
 
     [SerializeField] Transform weaponsParent;
 
+    [SerializeField] Material outlineMaterial;
+    [SerializeField] Material defaultMaterial;
+    GameObject lastOutlined;
+
     public static PlayerWeapon instance;
 
     private void Awake()
@@ -35,6 +39,24 @@ public class PlayerWeapon : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
+        RaycastHit2D outlineHit = Physics2D.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition).origin, Camera.main.ScreenPointToRay(Input.mousePosition).direction, Mathf.Infinity);
+        if (outlineHit)
+        {
+            InteractiveObject hitObject = outlineHit.collider.gameObject.GetComponent<InteractiveObject>();
+            if (hitObject)
+            {
+                hitObject.gameObject.GetComponent<SpriteRenderer>().material = outlineMaterial;
+                lastOutlined = hitObject.gameObject;
+            }
+        }
+        else
+        {
+            if (lastOutlined != null)
+            {
+                lastOutlined.GetComponent<SpriteRenderer>().material = defaultMaterial;
+                lastOutlined = null;
+            }
+        }
         if (Input.GetKeyDown(KeyCode.Q))
         {
             if(weapons.Count > 0)

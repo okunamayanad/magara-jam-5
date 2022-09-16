@@ -12,6 +12,4 @@ public class InteractiveObject : MonoBehaviour
 
     public ObjectType m_type;
     public PlayerWeapon.WeaponType m_weaponType;
-    public Sprite m_original;
-    public Sprite m_outlined;
 }
