@@ -9,6 +9,7 @@ public class PlayerWeapon : MonoBehaviour
         Knife,
         Gun
     }
+    public Dictionary<WeaponType, int> weaponIndexes = new Dictionary<WeaponType, int>();
     public List<WeaponType> weapons = new List<WeaponType>();
     public int currentWeaponIndex;
     public WeaponType currentWeapon;
@@ -27,7 +28,8 @@ public class PlayerWeapon : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        weaponIndexes.Add(WeaponType.Knife, 0);
+        weaponIndexes.Add(WeaponType.Gun, 1);
     }
 
     // Update is called once per frame
@@ -40,9 +42,9 @@ public class PlayerWeapon : MonoBehaviour
                 ChangeWeapon();
             }
         }
-        else if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
-            RaycastHit2D hit = Physics2D.Raycast(Input.mousePosition, Input.mousePosition - Camera.main.ScreenToWorldPoint(Input.mousePosition), Mathf.Infinity);
+            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition).origin, Camera.main.ScreenPointToRay(Input.mousePosition).direction, Mathf.Infinity);
             if (hit)
             {
                 InteractiveObject hitObject = hit.collider.gameObject.GetComponent<InteractiveObject>();
@@ -63,17 +65,18 @@ public class PlayerWeapon : MonoBehaviour
         if (!weapons.Contains(weapon))
         {
             weapons.Add(weapon);
+            ChangeWeapon();
         }
     }
     void ChangeWeapon()
     {
-        weaponsParent.GetChild(currentWeaponIndex).gameObject.SetActive(false);
+        weaponsParent.GetChild(weaponIndexes[weapons[currentWeaponIndex]]).gameObject.SetActive(false);
         currentWeaponIndex++;
         if(currentWeaponIndex >= weapons.Count)
         {
             currentWeaponIndex = 0;
         }
-        weaponsParent.GetChild(currentWeaponIndex).gameObject.SetActive(true);
+        weaponsParent.GetChild(weaponIndexes[weapons[currentWeaponIndex]]).gameObject.SetActive(true);
         currentWeapon = weapons[currentWeaponIndex];
     }
     void Shoot(InteractiveObject otherObject)
