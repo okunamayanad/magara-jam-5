@@ -48,14 +48,17 @@ public class PlayerWeapon : MonoBehaviour
             if (hit)
             {
                 InteractiveObject hitObject = hit.collider.gameObject.GetComponent<InteractiveObject>();
-                if (hitObject.m_type == InteractiveObject.ObjectType.Victim)
+                if (hitObject)
                 {
-                    Shoot(hitObject);
-                }
-                else if(hitObject.m_type == InteractiveObject.ObjectType.Weapon)
-                {
-                    AddWeapon(hitObject.m_weaponType);
-                    Destroy(hitObject.gameObject);
+                    if (hitObject.m_type == InteractiveObject.ObjectType.Victim)
+                    {
+                        Shoot(hitObject);
+                    }
+                    else if (hitObject.m_type == InteractiveObject.ObjectType.Weapon)
+                    {
+                        AddWeapon(hitObject.m_weaponType);
+                        Destroy(hitObject.gameObject);
+                    }
                 }
             }
         }
