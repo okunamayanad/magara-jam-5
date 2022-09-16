@@ -46,6 +46,11 @@ public class PlayerWeapon : MonoBehaviour
             InteractiveObject hitObject = outlineHit.collider.gameObject.GetComponent<InteractiveObject>();
             if (hitObject)
             {
+                if (lastOutlined != null)
+                {
+                    lastOutlined.GetComponent<SpriteRenderer>().material = defaultMaterial;
+                    lastOutlined = null;
+                }
                 hitObject.gameObject.GetComponent<SpriteRenderer>().material = outlineMaterial;
                 lastOutlined = hitObject.gameObject;
             }
