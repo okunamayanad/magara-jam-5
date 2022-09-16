@@ -20,6 +20,8 @@ public class PlayerWeapon : MonoBehaviour
     [SerializeField] Material defaultMaterial;
     GameObject lastOutlined;
 
+    public bool imHided;
+
     public static PlayerWeapon instance;
 
     private void Awake()
@@ -40,7 +42,7 @@ public class PlayerWeapon : MonoBehaviour
     void LateUpdate()
     {
         //Outline Object
-        RaycastHit2D outlineHit = Physics2D.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition).origin, Camera.main.ScreenPointToRay(Input.mousePosition).direction, Mathf.Infinity);
+        RaycastHit2D outlineHit = Physics2D.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition).origin, Camera.main.ScreenPointToRay(Input.mousePosition).direction, Mathf.Infinity, imHided ? LayerMask.GetMask("InteractiveObject/HideArea") : LayerMask.GetMask("InteractiveObject/InteractiveObject", "InteractiveObject/HideArea"));
         if (outlineHit)
         {
             InteractiveObject hitObject = outlineHit.collider.gameObject.GetComponent<InteractiveObject>();
@@ -92,9 +94,30 @@ public class PlayerWeapon : MonoBehaviour
                         case InteractiveObject.ObjectType.Door:
                             SceneTransition.instance.LoadScene(hitObject.m_targetScene);
                             break;
+                        case InteractiveObject.ObjectType.HideArea:
+                            Hide(hitObject);
+                            break;
                     }
                 }
             }
+        }
+    }
+    public void Hide(InteractiveObject otherObject)
+    {
+        if (!imHided)
+        {
+            imHided = true;
+            otherObject.transform.GetChild(0).gameObject.SetActive(true);
+            gameObject.GetComponent<SpriteRenderer>().enabled = false;
+            gameObject.GetComponent<Rigidbody2D>().simulated = false;
+            transform.position = new Vector2(otherObject.transform.position.x, transform.position.y);
+        }
+        else
+        {
+            imHided = false;
+            otherObject.transform.GetChild(0).gameObject.SetActive(false);
+            gameObject.GetComponent<SpriteRenderer>().enabled = true;
+            gameObject.GetComponent<Rigidbody2D>().simulated = true;
         }
     }
     public void AddWeapon(WeaponType weapon)

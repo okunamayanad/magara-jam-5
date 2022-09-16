@@ -8,7 +8,8 @@ public class InteractiveObject : MonoBehaviour
     {
         Weapon,
         Victim,
-        Door
+        Door,
+        HideArea
     }
 
     public ObjectType m_type;

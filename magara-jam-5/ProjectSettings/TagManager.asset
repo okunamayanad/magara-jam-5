@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - InteractiveObject
-  - 
+  - InteractiveObject/InteractiveObject
+  - InteractiveObject/HideArea
   - 
   - 
   - 
@@ -40,4 +40,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: HideBox
+    uniqueID: 3166903307
+    locked: 0
+  - name: Player
+    uniqueID: 4253951243
     locked: 0
