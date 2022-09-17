@@ -9,6 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/mainmenu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/oyun.unity
+    path: "Assets/Scenes/evler/k\xF6t\xFCadam/ev1/d\u0131\u015F/ev1 d\u0131\u015F.unity"
     guid: 2766fcc7e18470a44acb48b0907e38a6
+  - enabled: 1
+    path: "Assets/Scenes/evler/k\xF6t\xFCadam/ev1/d\u0131\u015F/maymuncuk.unity"
+    guid: 2f2e51ecbe256334fa8aeb51ab3fff9a
+  - enabled: 1
+    path: "Assets/Scenes/evler/k\xF6t\xFCadam/ev1/i\xE7/ev1 i\xE7.unity"
+    guid: 4cbf074e98db3a646b361793c6d17e8a
+  - enabled: 1
+    path: "Assets/Scenes/evler/dedektif/ev1/i\xE7/ev1 i\xE7.unity"
+    guid: b0713da50ce165f438dc0677d1bd980b
+  - enabled: 1
+    path: "Assets/Scenes/evler/k\xF6t\xFCadam/ev2/d\u0131\u015F/ev2 d\u0131\u015F.unity"
+    guid: 67b44819578775248824cbee1c53d906
+  - enabled: 1
+    path: "Assets/Scenes/evler/k\xF6t\xFCadam/ev2/i\xE7/ev2 i\xE7.unity"
+    guid: bef98c515d703844c8f545a7f3040bc6
+  - enabled: 1
+    path: "Assets/Scenes/evler/dedektif/ev2/i\xE7/ev2 i\xE7.unity"
+    guid: 78d4d9e6a33fea64a8ee349e87efc68f
   m_configObjects: {}
