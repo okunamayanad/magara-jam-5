@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9761f1c272029874eb18f4b0ba3ac393
+guid: 8922a9900204bbd4497e6a4462fe3d92
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,43 +105,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IdleCharacter_0
+      name: Camera_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 0
         y: 0
-        width: 11
-        height: 33
+        width: 5
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08ae3fae814e4184f874a6fc220eb0b3
-      internalID: -1905838743
+      spriteID: 07c1755cd5c4ec244bff7a8a91925081
+      internalID: 343193728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IdleCharacter_1
+      name: Camera_1
       rect:
         serializedVersion: 2
-        x: 18
+        x: 6
         y: 0
-        width: 11
-        height: 33
+        width: 5
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d49b0759bd1b22c41a0a725114b87ab1
-      internalID: -1727911570
+      spriteID: 362b9d22815513c4097a623d131b3b53
+      internalID: 1230277270
       vertices: []
       indices: 
       edges: []
@@ -157,8 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      IdleCharacter_1: -1727911570
-      IdleCharacter_0: -1905838743
+      Camera_0: 343193728
+      Camera_1: 1230277270
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
