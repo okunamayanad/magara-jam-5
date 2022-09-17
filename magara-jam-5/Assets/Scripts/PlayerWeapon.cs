@@ -43,7 +43,7 @@ public class PlayerWeapon : MonoBehaviour
     {
         //Outline Object
         RaycastHit2D outlineHit = Physics2D.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition).origin, Camera.main.ScreenPointToRay(Input.mousePosition).direction, Mathf.Infinity, imHided ? LayerMask.GetMask("InteractiveObject/HideArea") : LayerMask.GetMask("InteractiveObject/InteractiveObject", "InteractiveObject/HideArea"));
-        if (outlineHit)
+        if (outlineHit && Vector2.Distance(transform.position,outlineHit.transform.position)<3)
         {
             InteractiveObject hitObject = outlineHit.collider.gameObject.GetComponent<InteractiveObject>();
             if (hitObject)
@@ -77,7 +77,7 @@ public class PlayerWeapon : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition).origin, Camera.main.ScreenPointToRay(Input.mousePosition).direction, Mathf.Infinity);
-            if (hit)
+            if (hit && Vector2.Distance(transform.position, outlineHit.transform.position) < 3)
             {
                 InteractiveObject hitObject = hit.collider.gameObject.GetComponent<InteractiveObject>();
                 if (hitObject)
@@ -108,14 +108,16 @@ public class PlayerWeapon : MonoBehaviour
         {
             imHided = true;
             otherObject.transform.GetChild(0).gameObject.SetActive(true);
+            otherObject.transform.GetChild(0).GetComponent<Animator>().SetBool("Crouch", true);
             gameObject.GetComponent<SpriteRenderer>().enabled = false;
             gameObject.GetComponent<Rigidbody2D>().simulated = false;
-            transform.position = new Vector2(otherObject.transform.position.x, transform.position.y);
+            transform.position = new Vector2(otherObject.transform.position.x - 0.5f, transform.position.y);
         }
         else
         {
             imHided = false;
             otherObject.transform.GetChild(0).gameObject.SetActive(false);
+            otherObject.transform.GetChild(0).GetComponent<Animator>().SetBool("Crouch", false);
             gameObject.GetComponent<SpriteRenderer>().enabled = true;
             gameObject.GetComponent<Rigidbody2D>().simulated = true;
         }
