@@ -9,6 +9,8 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] Slider volumeSlider;
 
     [SerializeField] GameObject settingsMenu;
+
+    public GameObject lastActive;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +18,7 @@ public class MainMenuManager : MonoBehaviour
         {
             PlayerPrefs.SetFloat("Volume", 1.0f);
         }
-        volumeSlider.value = PlayerPrefs.GetFloat("Volume");
+        volumeSlider.SetValueWithoutNotify(PlayerPrefs.GetFloat("Volume"));
     }
 
     // Update is called once per frame
@@ -24,14 +26,8 @@ public class MainMenuManager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (settingsMenu.activeSelf)
-            {
-                settingsMenu.SetActive(false);
-            }
-            else
-            {
-                settingsMenu.SetActive(true);
-            }
+            if(lastActive)
+                lastActive.SetActive(false);
         }
     }
     public void VolumeChange()
@@ -45,5 +41,14 @@ public class MainMenuManager : MonoBehaviour
     public void LoadScene(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
+    }
+    public void Active(GameObject obje)
+    {
+        obje.SetActive(true);
+        lastActive = obje;
+    }
+    public void Quit()
+    {
+        Application.Quit();
     }
 }

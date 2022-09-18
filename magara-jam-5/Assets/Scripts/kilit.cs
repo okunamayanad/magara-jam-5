@@ -61,6 +61,7 @@ public class kilit : MonoBehaviour
                 new Vector3(transform.position.x, -0.1f, transform.position.z);
             rb.simulated = false;
             isLocked = true;
+            GetComponent<AudioSource>().Play();
             GM.GetComponent<KilitManager>().TryLock();
             ps.Play();
         }

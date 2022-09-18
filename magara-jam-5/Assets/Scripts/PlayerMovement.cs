@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
     private void Update()
-    {
+    {/*
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (pauseMenu.activeSelf)
@@ -58,6 +58,6 @@ public class PlayerMovement : MonoBehaviour
                 Time.timeScale = 0;
                 pauseMenu.SetActive(true);
             }
-        }
+        }*/
     }
 }

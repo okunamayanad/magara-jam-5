@@ -23,6 +23,7 @@ public class KeypadManager : MonoBehaviour
     }
     public void Key(int value)
     {
+        GetComponent<AudioSource>().Play();
         inputs[counter].text = value.ToString();
         counter++;
         if (counter >= inputs.Count)
