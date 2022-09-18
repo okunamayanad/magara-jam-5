@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Hyphy  Studios
-  productName: magara-jam-5
+  companyName: HyphyStudios
+  productName: Identity
   defaultCursor: {fileID: 2800000, guid: 51427ecf59fd61c4db5f9c3d70830c9a, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.09433961, g: 0.08944463, b: 0.08944463, a: 1}
@@ -157,12 +157,12 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Standalone: com.HyphyStudios.magara-jam-5
+    Standalone: com.HyphyStudios.Identity
   buildNumber:
     Standalone: 0
     iPhone: 0
     tvOS: 0
-  overrideDefaultApplicationIdentifier: 1
+  overrideDefaultApplicationIdentifier: 0
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 22
   AndroidTargetSdkVersion: 0
