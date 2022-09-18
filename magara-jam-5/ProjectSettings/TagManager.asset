@@ -14,8 +14,8 @@ TagManager:
   - InteractiveObject/InteractiveObject
   - InteractiveObject/HideArea
   - 
-  - 
-  - 
+  - PuzzlePiece
+  - PuzzleTarget
   - 
   - 
   - 

@@ -41,7 +41,7 @@ public class KilitManager : MonoBehaviour
             kilit4.GetComponent<kilit>().isLocked
         )
         {
-            Debug.Log("Changing scene");
+            SceneTransition.instance.LoadScene(3);
             // change scene
         }
     }

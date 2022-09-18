@@ -36,6 +36,13 @@ public class CameraMeter : MonoBehaviour
             meterEffect.color = new Color(255,0,0,meter/2);
             if(meter >= 0.5f)
             {
+                foreach (SoundVolumeManager manager in FindObjectsOfType<SoundVolumeManager>())
+                {
+                    if (manager.dontDestroyOnLoad)
+                    {
+                        Destroy(manager.gameObject);
+                    }
+                }
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             }
         }

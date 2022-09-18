@@ -13,6 +13,10 @@ public class SceneTransition : MonoBehaviour
     void Awake()
     {
         DontDestroyOnLoad(transform.parent.gameObject);
+        if(FindObjectsOfType<SceneTransition>().Length > 1)
+        {
+            Destroy(transform.parent.gameObject);
+        }
         if(instance == null)
         {
             instance = this;

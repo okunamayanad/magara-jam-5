@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerWeapon : MonoBehaviour
 {
     public enum WeaponType
     {
+        Null,
         Knife,
         Gun
     }
@@ -22,6 +24,14 @@ public class PlayerWeapon : MonoBehaviour
 
     public bool imHided;
 
+    [SerializeField] Animator nullWeaponAlert;
+
+    [SerializeField] int kagitCount;
+    [SerializeField] int totalKagit;
+    [SerializeField] GameObject puzzleScreen;
+
+    [SerializeField] Camera cam;
+
     public static PlayerWeapon instance;
 
     private void Awake()
@@ -36,13 +46,17 @@ public class PlayerWeapon : MonoBehaviour
     {
         weaponIndexes.Add(WeaponType.Knife, 0);
         weaponIndexes.Add(WeaponType.Gun, 1);
+        if(cam == null)
+        {
+            cam = Camera.main;
+        }
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
         //Outline Object
-        RaycastHit2D outlineHit = Physics2D.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition).origin, Camera.main.ScreenPointToRay(Input.mousePosition).direction, Mathf.Infinity, imHided ? LayerMask.GetMask("InteractiveObject/HideArea") : LayerMask.GetMask("InteractiveObject/InteractiveObject", "InteractiveObject/HideArea"));
+        RaycastHit2D outlineHit = Physics2D.Raycast(cam.ScreenPointToRay(Input.mousePosition).origin, cam.ScreenPointToRay(Input.mousePosition).direction, Mathf.Infinity, imHided ? LayerMask.GetMask("InteractiveObject/HideArea") : LayerMask.GetMask("InteractiveObject/InteractiveObject", "InteractiveObject/HideArea"));
         if (outlineHit && Vector2.Distance(transform.position,outlineHit.transform.position)<3)
         {
             InteractiveObject hitObject = outlineHit.collider.gameObject.GetComponent<InteractiveObject>();
@@ -66,17 +80,9 @@ public class PlayerWeapon : MonoBehaviour
             }
         }
         //End Outline Object
-
-        if (Input.GetKeyDown(KeyCode.Q))
-        {
-            if(weapons.Count > 0)
-            {
-                ChangeWeapon();
-            }
-        }
         if (Input.GetMouseButtonDown(0))
         {
-            RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenPointToRay(Input.mousePosition).origin, Camera.main.ScreenPointToRay(Input.mousePosition).direction, Mathf.Infinity);
+            RaycastHit2D hit = Physics2D.Raycast(cam.ScreenPointToRay(Input.mousePosition).origin, cam.ScreenPointToRay(Input.mousePosition).direction, Mathf.Infinity);
             if (hit && Vector2.Distance(transform.position, outlineHit.transform.position) < 3)
             {
                 InteractiveObject hitObject = hit.collider.gameObject.GetComponent<InteractiveObject>();
@@ -96,6 +102,14 @@ public class PlayerWeapon : MonoBehaviour
                             break;
                         case InteractiveObject.ObjectType.HideArea:
                             Hide(hitObject);
+                            break;
+                        case InteractiveObject.ObjectType.Kagit:
+                            totalKagit++;
+                            Destroy(hitObject.gameObject);
+                            if(totalKagit == kagitCount)
+                            {
+                                puzzleScreen.SetActive(true);
+                            }
                             break;
                     }
                 }
@@ -124,32 +138,35 @@ public class PlayerWeapon : MonoBehaviour
     }
     public void AddWeapon(WeaponType weapon)
     {
-        if (!weapons.Contains(weapon))
+        currentWeapon = weapon;
+        if(weapon == WeaponType.Knife)
         {
-            weapons.Add(weapon);
-            ChangeWeapon();
+            gameObject.GetComponent<Animator>().SetBool("Knife",true);
         }
-    }
-    void ChangeWeapon()
-    {
-        weaponsParent.GetChild(weaponIndexes[weapons[currentWeaponIndex]]).gameObject.SetActive(false);
-        currentWeaponIndex++;
-        if(currentWeaponIndex >= weapons.Count)
-        {
-            currentWeaponIndex = 0;
-        }
-        weaponsParent.GetChild(weaponIndexes[weapons[currentWeaponIndex]]).gameObject.SetActive(true);
-        currentWeapon = weapons[currentWeaponIndex];
     }
     void Shoot(InteractiveObject otherObject)
     {
         if(currentWeapon == WeaponType.Knife)
         {
-
+            this.gameObject.SetActive(false);
+            otherObject.victimKillEvent.SetActive(true);
+            if (lastOutlined != null)
+            {
+                lastOutlined.GetComponent<SpriteRenderer>().material = defaultMaterial;
+                lastOutlined = null;
+            }
         }
         else if(currentWeapon == WeaponType.Gun)
         {
 
         }
+        else if(currentWeapon == WeaponType.Null)
+        {
+            nullWeaponAlert.SetTrigger("Play");
+        }
+    }
+    public void LoadScene(int sceneIndex)
+    {
+        SceneTransition.instance.LoadScene(sceneIndex);
     }
 }

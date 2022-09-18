@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rb;
     Animator animator;
+
+    [SerializeField] GameObject pauseMenu;
     // Start is called before the first frame update
     void Start()
     {
@@ -40,6 +42,22 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = Vector2.zero;
             imMoving = false;
             animator.SetBool("Walk", false);
+        }
+    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (pauseMenu.activeSelf)
+            {
+                Time.timeScale = 1;
+                pauseMenu.SetActive(false);
+            }
+            else
+            {
+                Time.timeScale = 0;
+                pauseMenu.SetActive(true);
+            }
         }
     }
 }

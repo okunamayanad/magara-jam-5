@@ -18,11 +18,17 @@ EditorBuildSettings:
     path: "Assets/Scenes/evler/k\xF6t\xFCadam/ev1/i\xE7/ev1 i\xE7.unity"
     guid: 4cbf074e98db3a646b361793c6d17e8a
   - enabled: 1
+    path: "Assets/Scenes/evler/k\xF6t\xFCadam/ev1/i\xE7/ev1 telefon.unity"
+    guid: 039f6be277ea5d34c8b7f80add0bbb39
+  - enabled: 1
     path: "Assets/Scenes/evler/dedektif/ev1/i\xE7/ev1 i\xE7.unity"
     guid: b0713da50ce165f438dc0677d1bd980b
   - enabled: 1
     path: "Assets/Scenes/evler/k\xF6t\xFCadam/ev2/d\u0131\u015F/ev2 d\u0131\u015F.unity"
     guid: 67b44819578775248824cbee1c53d906
+  - enabled: 1
+    path: "Assets/Scenes/evler/k\xF6t\xFCadam/ev2/d\u0131\u015F/keypad.unity"
+    guid: 12254db8eacacc2439c3f00e36a6ac8e
   - enabled: 1
     path: "Assets/Scenes/evler/k\xF6t\xFCadam/ev2/i\xE7/ev2 i\xE7.unity"
     guid: bef98c515d703844c8f545a7f3040bc6
