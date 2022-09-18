@@ -5,13 +5,61 @@ using UnityEngine;
 public class bossPlayerController : MonoBehaviour
 {
     [SerializeField]
-    private GameObject kol; 
+    float movementSpeed;
 
-    private void Update() {
-        
+    public float jumpSpeed;
+
+    [SerializeField]
+    Rigidbody2D rb;
+
+    [SerializeField]
+    bossManager bossMan;
+
+    bool inDanger;
+
+    private void Update()
+    {
+        if (Input.GetKeyDown("space"))
+        {
+            Debug.Log("jumping");
+            rb.velocity = Vector2.up * jumpSpeed;
+        }
+        if (inDanger)
+        {
+            bossMan.Damage(1);
+        }
     }
 
-    public void die(){
-        
+    void FixedUpdate()
+    {
+        float inputX = Input.GetAxis("Horizontal");
+        if (inputX != 0)
+        {
+            rb.velocity = new Vector2(inputX * movementSpeed, rb.velocity.y);
+        }
+        else
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+        }
+    }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            inDanger = true;
+        }
+    }
+
+    public void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            inDanger = false;
+        }
+    }
+
+    public void die()
+    {
     }
 }

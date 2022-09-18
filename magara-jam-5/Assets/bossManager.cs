@@ -36,43 +36,38 @@ public class bossManager : MonoBehaviour
         else
         {
             // P2
-            P2health -= Random.Range(10, 20);
+            P2health -= Random.Range(1, 2);
         }
     }
 
     private void Start()
     {
-        test();
         cameraAttack();
     }
 
-    void test(){
-        StartCoroutine(TestASYNC());
-    }
-
-    void cameraAttack(){
+    void cameraAttack()
+    {
         StartCoroutine(cameraAttackASYNC());
+        StartCoroutine(cameraAttackASYNC());
+        StartCoroutine(cameraAttackASYNC());
+        StartCoroutine(cameraAttackASYNC());
+        StartCoroutine(cameraAttackASYNC());
+        StartCoroutine(cameraAttackASYNC());
+        StartCoroutine(cameraAttackASYNC());
+        StartCoroutine(cameraAttackASYNC());    
     }
 
-    IEnumerator cameraAttackASYNC(){
+    IEnumerator cameraAttackASYNC()
+    {
         StartCoroutine(kameraController.AttackRandom());
         yield return new WaitForSeconds(2.5f);
         cameraAnimator.enabled = true;
         yield return new WaitForSeconds(1.5f);
         cameraAnimator.enabled = false;
-        cameratrans.rotation = new Quaternion(0f, 0f, 0f, 0f);  
+        cameratrans.rotation = new Quaternion(0f, 0f, 0f, 0f);
         cameratrans.position = new Vector3(0f, 0f, -10f);
         yield return new WaitForSeconds(1.5f);
-        cameraAttack();
-    }
-
-    IEnumerator TestASYNC()
-    {
-        yield return new WaitForSeconds(1);
-        rnd = Random.Range(1, 3);
-        Debug.Log("damaging P" + rnd);
-        Damage (rnd);
-        test();
+        StartCoroutine(cameraAttackASYNC());
     }
 
     // Update is called once per frame
