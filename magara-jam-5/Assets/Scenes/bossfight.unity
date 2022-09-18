@@ -1186,6 +1186,7 @@ GameObject:
   - component: {fileID: 406840000}
   - component: {fileID: 406840001}
   - component: {fileID: 406840002}
+  - component: {fileID: 406840003}
   m_Layer: 0
   m_Name: playersprite
   m_TagString: Untagged
@@ -1279,6 +1280,9 @@ MonoBehaviour:
   jumpSpeed: 7
   rb: {fileID: 406840002}
   bossMan: {fileID: 1440444395}
+  isMoving: 0
+  isEgiling: 0
+  animator: {fileID: 406840003}
 --- !u!61 &406840001
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1326,6 +1330,26 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!95 &406840003
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 406839997}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 53b9c331a07fc4c40b1ad5d6428318cc, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &407320386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1852,7 +1876,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8591475629268668971, guid: f4ee4fa995706a243a2ee69a80a7a094, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 8591475629268668971, guid: f4ee4fa995706a243a2ee69a80a7a094, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1943,7 +1967,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8591475629268668971, guid: f4ee4fa995706a243a2ee69a80a7a094, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 8591475629268668971, guid: f4ee4fa995706a243a2ee69a80a7a094, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3381,7 +3405,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8591475629268668971, guid: f4ee4fa995706a243a2ee69a80a7a094, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 8591475629268668971, guid: f4ee4fa995706a243a2ee69a80a7a094, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3532,7 +3556,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8591475629268668971, guid: f4ee4fa995706a243a2ee69a80a7a094, type: 3}
       propertyPath: m_RootOrder
-      value: 27
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 8591475629268668971, guid: f4ee4fa995706a243a2ee69a80a7a094, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3657,7 +3681,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8591475629268668971, guid: f4ee4fa995706a243a2ee69a80a7a094, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 8591475629268668971, guid: f4ee4fa995706a243a2ee69a80a7a094, type: 3}
       propertyPath: m_LocalPosition.x

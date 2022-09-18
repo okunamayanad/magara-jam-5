@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8ac89e3c79c03694eb3bf128d5392dae
+guid: c3a3a1fb1435fc7419a7018c5f7f5467
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -105,64 +105,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SavasDedektif_0
+      name: Silahlidle_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2
-        width: 18
+        x: 0
+        y: 0
+        width: 10
         height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3709b54a79d466d45b7353e05cc74f66
-      internalID: 286681268
+      spriteID: 3a897c8d22d214a40b977462ceafcea2
+      internalID: 1638860593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SavasDedektif_1
+      name: Silahlidle_1
       rect:
         serializedVersion: 2
-        x: 23
-        y: 2
-        width: 16
+        x: 11
+        y: 0
+        width: 10
         height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb0fcc2cac938624093c70f9419a19eb
-      internalID: 1426479033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: SavasDedektif_2
-      rect:
-        serializedVersion: 2
-        x: 41
-        y: 2
-        width: 16
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f3bba4d195750e44866725c754a7e2f
-      internalID: 1658038664
+      spriteID: add9b882be039cf49b2255fb26c7179a
+      internalID: -550992754
       vertices: []
       indices: 
       edges: []
@@ -178,9 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SavasDedektif_0: 286681268
-      SavasDedektif_1: 1426479033
-      SavasDedektif_2: 1658038664
+      Silahlidle_1: -550992754
+      Silahlidle_0: 1638860593
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

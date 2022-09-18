@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 8ac89e3c79c03694eb3bf128d5392dae
+guid: 257f0b89d3dc71345a910477af08e251
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -67,7 +67,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 256
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -105,64 +105,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SavasDedektif_0
+      name: kolsuzyurume_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 2
-        width: 18
+        x: 4
+        y: 0
+        width: 9
         height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3709b54a79d466d45b7353e05cc74f66
-      internalID: 286681268
+      spriteID: 4ff76794097d9b84fa2ea9504b8fc004
+      internalID: 1274677371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SavasDedektif_1
+      name: kolsuzyurume_1
       rect:
         serializedVersion: 2
-        x: 23
-        y: 2
-        width: 16
+        x: 20
+        y: 0
+        width: 9
         height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb0fcc2cac938624093c70f9419a19eb
-      internalID: 1426479033
+      spriteID: f955b9c0a5938c941b7b6543b952bbc1
+      internalID: 2033749423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SavasDedektif_2
+      name: kolsuzyurume_2
       rect:
         serializedVersion: 2
-        x: 41
-        y: 2
-        width: 16
+        x: 36
+        y: 0
+        width: 9
         height: 33
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f3bba4d195750e44866725c754a7e2f
-      internalID: 1658038664
+      spriteID: 4b5bb633e7672404a87f405292991506
+      internalID: -588404207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuzyurume_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 0
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4198f0d8c3737ac4f837d94246bcfb63
+      internalID: -2098931825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuzyurume_4
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 0
+        width: 11
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaeb76710e3910b4685a17ce12f53475
+      internalID: 1763554573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: kolsuzyurume_5
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f1f35689b4152489a21cb81ea38a34
+      internalID: -1895460015
       vertices: []
       indices: 
       edges: []
@@ -178,9 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      SavasDedektif_0: 286681268
-      SavasDedektif_1: 1426479033
-      SavasDedektif_2: 1658038664
+      kolsuzyurume_1: 2033749423
+      kolsuzyurume_5: -1895460015
+      kolsuzyurume_3: -2098931825
+      kolsuzyurume_0: 1274677371
+      kolsuzyurume_4: 1763554573
+      kolsuzyurume_2: -588404207
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

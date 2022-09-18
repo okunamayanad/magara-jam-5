@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine;
 
 public class bossPlayerController : MonoBehaviour
 {
@@ -17,6 +18,17 @@ public class bossPlayerController : MonoBehaviour
 
     bool inDanger;
 
+    [SerializeField]
+    bool isMoving;
+
+    [SerializeField]
+    bool isEgiling;
+
+    [SerializeField]
+    Animator animator;  
+    [SerializeField]
+    GameObject pivot;  
+
     private void Update()
     {
         if (Input.GetKeyDown("space"))
@@ -28,18 +40,34 @@ public class bossPlayerController : MonoBehaviour
         {
             bossMan.Damage(1);
         }
+        animator.SetBool("isEgiling", isEgiling);
+        animator.SetBool("isMoving", isMoving);
     }
 
     void FixedUpdate()
     {
-        float inputX = Input.GetAxis("Horizontal");
-        if (inputX != 0)
+        float inputX = Input.GetAxis("Horizontal"); 
+        if (Input.GetKey(KeyCode.LeftControl))
         {
-            rb.velocity = new Vector2(inputX * movementSpeed, rb.velocity.y);
+            rb.velocity = new Vector2(0, rb.velocity.y);
+            isEgiling = true;
+            pivot.SetActive(false);
         }
         else
         {
-            rb.velocity = new Vector2(0, rb.velocity.y);
+            pivot.SetActive(true);
+            isEgiling = false;
+            if (inputX != 0)
+            {
+                isMoving = true;
+                rb.velocity =
+                    new Vector2(inputX * movementSpeed, rb.velocity.y);
+            }
+            else
+            {
+                isMoving = false;
+                rb.velocity = new Vector2(0, rb.velocity.y);
+            }
         }
     }
 
