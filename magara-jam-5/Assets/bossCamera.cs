@@ -14,16 +14,21 @@ public class bossCamera : MonoBehaviour
 
     public GameObject beam;
 
+    [SerializeField]
+    private GameObject attackLight;
+
     private void Start()
     {
         unlem.SetActive(false);
         beam.SetActive(false);
+        attackLight.SetActive(false);
         // Attack();
     }
 
     public void Attack()
     {
         unlem.SetActive(true);
+        attackLight.SetActive(true);
         spriteRndrr.sprite = redCam;
         StartCoroutine(AttackASYNC());
     }
@@ -38,5 +43,6 @@ public class bossCamera : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
         beam.SetActive(false);
         spriteRndrr.sprite = normalCam;
+        attackLight.SetActive(false);
     }
 }
