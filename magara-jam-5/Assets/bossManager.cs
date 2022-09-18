@@ -19,6 +19,7 @@ public class bossManager : MonoBehaviour
 
     [SerializeField]
     kameraController kameraController;
+    SceneTransition SceneTransition;
 
     public int P1health = 100;
 
@@ -33,8 +34,7 @@ public class bossManager : MonoBehaviour
             // P1
             P1health -= Random.Range(10, 20);
         }
-        else
-        {
+        else        {
             // P2
             P2health -= Random.Range(1, 2);
         }
@@ -43,6 +43,7 @@ public class bossManager : MonoBehaviour
     private void Start()
     {
         cameraAttack();
+        SceneTransition = GameObject.Find("SceneTransition").GetComponent<SceneTransition>();
     }
 
     void cameraAttack()
@@ -79,14 +80,15 @@ public class bossManager : MonoBehaviour
         if (P1health <= 0)
         {
             // P1 ded
-            P1health = 0;
             Debug.Log("P1 ded");
+            SceneTransition.LoadScene(13);
         }
         if (P2health <= 0)
         {
             // P2 ded
             P2health = 0;
             Debug.Log("P2 ded");
+            SceneTransition.LoadScene(13);
         }
     }
 }
