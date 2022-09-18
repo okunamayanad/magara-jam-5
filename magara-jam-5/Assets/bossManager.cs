@@ -85,7 +85,7 @@ public class bossManager : MonoBehaviour
         if (P2health <= 0)
         {
             // P2 ded
-            P1health = 0;
+            P2health = 0;
             Debug.Log("P2 ded");
         }
     }

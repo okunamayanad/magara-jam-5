@@ -440,7 +440,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: dost :balistik raporu merminin senin silahina ait oldugunu gosteriyor
+  m_text: dost :suc aletinin uzerinde senin parmak izin bulunmus
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f7e4373e319284549b7fdbe6787ac9fe, type: 2}
   m_sharedMaterial: {fileID: 7897041986372985381, guid: f7e4373e319284549b7fdbe6787ac9fe, type: 2}

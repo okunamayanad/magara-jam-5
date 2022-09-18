@@ -41,4 +41,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Credits.unity
     guid: 5268619392c2c7b4b8dc188027d7cec1
+  - enabled: 1
+    path: "Assets/Scenes/evler/dedektif/ev2/i\xE7/ev1 telefon.unity"
+    guid: 6d3e02071dbd267419ccb33039c5d52e
   m_configObjects: {}
