@@ -17,6 +17,7 @@ public class PlayerWeapon : MonoBehaviour
     public WeaponType currentWeapon;
 
     [SerializeField] Transform weaponsParent;
+    [SerializeField] bool giveWeaponOnStart;
 
     [SerializeField] Material outlineMaterial;
     [SerializeField] Material defaultMaterial;
@@ -49,6 +50,13 @@ public class PlayerWeapon : MonoBehaviour
         if(cam == null)
         {
             cam = Camera.main;
+        }
+        if (giveWeaponOnStart)
+        {
+            if(currentWeapon == WeaponType.Gun)
+            {
+                gameObject.GetComponent<Animator>().SetBool("Gun", true);
+            }
         }
     }
 
@@ -158,7 +166,13 @@ public class PlayerWeapon : MonoBehaviour
         }
         else if(currentWeapon == WeaponType.Gun)
         {
-
+            this.gameObject.SetActive(false);
+            otherObject.victimKillEvent.SetActive(true);
+            if (lastOutlined != null)
+            {
+                lastOutlined.GetComponent<SpriteRenderer>().material = defaultMaterial;
+                lastOutlined = null;
+            }
         }
         else if(currentWeapon == WeaponType.Null)
         {
