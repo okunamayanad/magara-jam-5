@@ -508,7 +508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
   m_Name: AnimationPlayableAsset
   m_EditorClassIdentifier: 
-  m_Clip: {fileID: 7400000, guid: 1864b7569746844499eb40ac19c9ad14, type: 2}
+  m_Clip: {fileID: 7400000, guid: 02f3a33f2f3fec94597864e40a0141f4, type: 2}
   m_Position: {x: 0, y: 0, z: 0}
   m_EulerAngles: {x: 0, y: 0, z: 0}
   m_UseTrackMatchFields: 1
@@ -800,7 +800,7 @@ MonoBehaviour:
     m_PreExtrapolationMode: 2
     m_PostExtrapolationTime: 0
     m_PreExtrapolationTime: 0
-    m_DisplayName: Player-BadGuy-idle
+    m_DisplayName: Player-BadGuy-idle-knife
   - m_Version: 1
     m_Start: 4.466666666666667
     m_ClipIn: 0
