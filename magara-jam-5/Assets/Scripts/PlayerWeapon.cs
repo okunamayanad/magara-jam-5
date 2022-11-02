@@ -106,7 +106,23 @@ public class PlayerWeapon : MonoBehaviour
                             Shoot(hitObject);
                             break;
                         case InteractiveObject.ObjectType.Door:
-                            SceneTransition.instance.LoadScene(hitObject.m_targetScene);
+                            if (hitObject.saatAnim)
+                            {
+                                PlayerPrefs.SetInt("SaatTargetScene",hitObject.m_targetScene);
+                                if (hitObject.sabahToGece)
+                                {
+                                    PlayerPrefs.SetInt("SaatTargetSaat", 0);
+                                }
+                                else
+                                {
+                                    PlayerPrefs.SetInt("SaatTargetSaat", 1);
+                                }
+                                SceneTransition.instance.LoadScene(14);
+                            }
+                            else
+                            {
+                                SceneTransition.instance.LoadScene(hitObject.m_targetScene);
+                            }
                             break;
                         case InteractiveObject.ObjectType.HideArea:
                             Hide(hitObject);

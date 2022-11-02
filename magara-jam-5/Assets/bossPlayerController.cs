@@ -17,16 +17,21 @@ public class bossPlayerController : MonoBehaviour
 
     bool inDanger;
 
+    float targetJumpTime;
     private void Update()
     {
         if (Input.GetKeyDown("space"))
         {
-            Debug.Log("jumping");
-            rb.velocity = Vector2.up * jumpSpeed;
+            if(Time.time > targetJumpTime)
+            {
+                Debug.Log("jumping");
+                rb.velocity = Vector2.up * jumpSpeed;
+                targetJumpTime = Time.time + 2;
+            }
         }
         if (inDanger)
         {
-            bossMan.Damage(1);
+            bossMan.P1health -= 1;
         }
     }
 

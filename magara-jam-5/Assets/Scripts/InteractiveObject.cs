@@ -16,5 +16,7 @@ public class InteractiveObject : MonoBehaviour
     public ObjectType m_type;
     public PlayerWeapon.WeaponType m_weaponType;
     public int m_targetScene;
+    public bool saatAnim;
+    public bool sabahToGece;
     public GameObject victimKillEvent;
 }

@@ -31,7 +31,7 @@ public class CameraMeter : MonoBehaviour
     {
         if (imInCam)
         {
-            meter += Time.deltaTime;
+            meter += Time.deltaTime*2;
             meter = Mathf.Clamp(meter, 0, 0.5f);
             meterEffect.color = new Color(255,0,0,meter/2);
             if(meter >= 0.5f)

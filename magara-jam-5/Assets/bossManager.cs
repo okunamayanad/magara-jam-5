@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class bossManager : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class bossManager : MonoBehaviour
     [SerializeField]
     kameraController kameraController;
 
-    public int P1health = 100;
+    public int P1health = 250;
 
     public int P2health = 100;
 
@@ -36,7 +37,7 @@ public class bossManager : MonoBehaviour
         else
         {
             // P2
-            P2health -= Random.Range(1, 2);
+            P2health -= Random.Range(1, 10);
         }
     }
 
@@ -81,12 +82,14 @@ public class bossManager : MonoBehaviour
             // P1 ded
             P1health = 0;
             Debug.Log("P1 ded");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
         if (P2health <= 0)
         {
             // P2 ded
             P2health = 0;
             Debug.Log("P2 ded");
+            SceneManager.LoadScene(13);
         }
     }
 }

@@ -11,6 +11,14 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] GameObject settingsMenu;
 
     public GameObject lastActive;
+
+    private void Awake()
+    {
+        if (GameObject.Find("Müzik") != null)
+        {
+            Destroy(GameObject.Find("Müzik").gameObject);
+        }
+    }
     // Start is called before the first frame update
     void Start()
     {

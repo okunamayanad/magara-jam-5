@@ -1535,6 +1535,8 @@ MonoBehaviour:
   - {fileID: 1829585745}
   loadScene: 0
   sceneIndex: 0
+  sabahToGece: 0
+  saatAnim: 0
 --- !u!4 &710400256
 Transform:
   m_ObjectHideFlags: 0

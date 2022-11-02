@@ -814,7 +814,7 @@ GameObject:
   - component: {fileID: 6760636281022038524}
   m_Layer: 8
   m_Name: laser
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -912,7 +912,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7, y: 9.2}
+  m_Size: {x: 0.55, y: 9.2}
   m_EdgeRadius: 0
 --- !u!1 &6863118269923724410
 GameObject:

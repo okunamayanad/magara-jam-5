@@ -10,6 +10,8 @@ public class CutsceneGecis : MonoBehaviour
 
     public bool loadScene;
     public int sceneIndex;
+    public bool sabahToGece;
+    public bool saatAnim;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +25,23 @@ public class CutsceneGecis : MonoBehaviour
         }
         if (loadScene)
         {
-            SceneTransition.instance.LoadScene(sceneIndex);
+            if (saatAnim)
+            {
+                PlayerPrefs.SetInt("SaatTargetScene", sceneIndex);
+                if (sabahToGece)
+                {
+                    PlayerPrefs.SetInt("SaatTargetSaat", 0);
+                }
+                else
+                {
+                    PlayerPrefs.SetInt("SaatTargetSaat", 1);
+                }
+                SceneTransition.instance.LoadScene(14);
+            }
+            else
+            {
+                SceneTransition.instance.LoadScene(sceneIndex);
+            }
         }
     }
 

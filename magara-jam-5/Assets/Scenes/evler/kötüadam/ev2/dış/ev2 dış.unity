@@ -2063,6 +2063,8 @@ MonoBehaviour:
   m_type: 2
   m_weaponType: 0
   m_targetScene: 7
+  saatAnim: 0
+  sabahToGece: 0
   victimKillEvent: {fileID: 0}
 --- !u!50 &613598869
 Rigidbody2D:

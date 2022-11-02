@@ -1350,6 +1350,8 @@ MonoBehaviour:
   activeThisObjects: []
   loadScene: 1
   sceneIndex: 10
+  sabahToGece: 0
+  saatAnim: 0
 --- !u!4 &1683190122
 Transform:
   m_ObjectHideFlags: 0
@@ -2104,7 +2106,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2078800792}
   - component: {fileID: 2078800791}
-  - component: {fileID: 2078800790}
   m_Layer: 0
   m_Name: Cutscene
   m_TagString: Untagged
@@ -2112,36 +2113,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &2078800790
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2078800789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Events:
-    m_Signals:
-    - {fileID: 11400000, guid: bb91f43b0204d4e438a65c276fb80b4b, type: 2}
-    m_Events:
-    - m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1683190120}
-          m_TargetAssemblyTypeName: SceneTransition, Assembly-CSharp
-          m_MethodName: 
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 10
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!320 &2078800791
 PlayableDirector:
   m_ObjectHideFlags: 0

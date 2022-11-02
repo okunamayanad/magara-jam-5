@@ -2209,6 +2209,8 @@ MonoBehaviour:
   m_type: 3
   m_weaponType: 0
   m_targetScene: 0
+  saatAnim: 0
+  sabahToGece: 0
   victimKillEvent: {fileID: 0}
 --- !u!61 &833298804
 BoxCollider2D:
@@ -4173,6 +4175,8 @@ MonoBehaviour:
   m_type: 2
   m_weaponType: 0
   m_targetScene: 2
+  saatAnim: 0
+  sabahToGece: 0
   victimKillEvent: {fileID: 0}
 --- !u!61 &1630032933
 BoxCollider2D:
@@ -5251,7 +5255,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2046805817}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -18.111113, y: 0.00000011920929, z: -10}
+  m_LocalPosition: {x: -18.10942, y: 0.00000011920929, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
